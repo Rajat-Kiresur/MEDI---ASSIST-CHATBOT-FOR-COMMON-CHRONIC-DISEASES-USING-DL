@@ -71,10 +71,10 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
 # Installation
 1.	Clone the repository:
-    git clone https://github.com/SantraptiNayak/Medi-Assist.git cd Medi-Assist 
-2.	Install the required packages:
+    git clone https://github.com/Rajat-Kiresur/MEDI---ASSIST-CHATBOT-FOR-COMMON-CHRONIC-DISEASES-USING-DL
+3.	Install the required packages:
     pip install -r requirements.txt 
-3.	Download NLTK data:
+4.	Download NLTK data:
     import nltk nltk.download('punkt') nltk.download('wordnet') nltk.download('omw-1.4') 
 
 # Usage
