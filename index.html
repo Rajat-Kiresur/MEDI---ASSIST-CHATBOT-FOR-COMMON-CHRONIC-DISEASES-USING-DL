@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medi-Assist</title>
+    <style>
+        /* Add basic styling for a cleaner look */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            /* background-image: url('health.jpg'); */
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.259);
+            margin: 100px auto; /* Center the container */
+        }
+        .chat-container {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #78ffd6, #a8ff78);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .you {
+            background-color: #b3ffb3;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .bot {
+            background-color: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            width: calc(100% - 20px); /* Adjusted width */
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        /* Dropdown menu styles */
+        /* .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('health.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5;
+        z-index: -1;
+        } */
+        .dropdown {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: linear-gradient(45deg, #3de2b1, #73d73d);
+            width: 100%;
+            z-index: 999;
+        }
+        .dropdown-content {
+            display: flex; /* Display links side by side */
+            justify-content: flex-start; /* Center the links horizontally */
+
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 20px 16px;
+            text-decoration: none;
+            display: inline-block; /* Display links inline */
+        }
+        .dropdown-content a:hover {
+            background-color: #4CAF50;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="background-image"></div> -->
+    <div class="dropdown">
+        <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="/team">Team Details</a>
+            <a href="/symptoms">List Of Symptoms</a>
+            <a href="/faq">FAQ</a>
+            <a href="#">About</a>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1 style="text-align: center;">Welcome to Medi-Assist</h1>
+        <h4 style="text-align: center;color: gray;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">To know about symptoms click on List Of Symptoms</h4>
+        <div class="chat-container" id="chat-container"></div>
+        <input type="text" id="message" placeholder="Enter your symptoms">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <script>
+        function appendMessage(sender, message) {
+            let chatContainer = document.getElementById('chat-container');
+            let messageDiv = document.createElement('div');
+            messageDiv.classList.add(sender);
+            messageDiv.textContent = sender.toUpperCase() + ': ' + message;
+            chatContainer.appendChild(messageDiv);
+        }
+
+        function sendMessage() {
+            let message = document.getElementById('message').value.trim();
+            if (message === '') return; // Do nothing if message is empty
+            let symptoms = message.split(',').map(s => s.trim()); // Split and trim symptoms
+            appendMessage('you', message); // Append user message to chat container
+            document.getElementById('message').value = ''; // Clear input field
+
+            fetch('/get_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ "symptoms": symptoms }) // Send symptoms as array
+            })
+            .then(response => response.text())
+            .then(data => {
+                appendMessage('bot', data); // Append bot response to chat container
+                speak(data); // Speak the bot response
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        // Function to speak the given text
+        function speak(text) {
+            const synth = window.speechSynthesis;
+            const utterance = new SpeechSynthesisUtterance(text);
+            synth.speak(utterance);
+        }
+    </script>
+</body>
+</html>

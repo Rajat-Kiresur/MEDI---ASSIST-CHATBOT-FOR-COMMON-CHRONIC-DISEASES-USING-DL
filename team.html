@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Add your custom styling here */
+        .team-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            
+        }
+
+        .team-member {
+            max-width: 40%; 
+            max-height: 45%;/* Each card takes up to 45% of the container width */
+            width: 100%;
+            margin: 34px 0;
+            padding: 50px;
+            box-sizing: border-box;
+            background: linear-gradient(75deg, #77cdb3cb, #97e070cb);
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.259);
+            text-align: center;
+        }
+
+        .team-member h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .team-member p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Team Details</h1>
+    <div class="team-container" style="width: 892px;">
+        {% for team_member in team_members %}
+        <div class="team-member">
+            <i class="fas fa-user fa-6x" style="color: #000000;"></i> 
+            <h2>{{ team_member.name }}</h2>
+            <p>USN: {{ team_member.usn }}</p>
+            <p>Email: {{ team_member.email }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

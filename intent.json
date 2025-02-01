@@ -1,0 +1,190 @@
+{"intents": [
+  {
+    "tag" : "greetings",
+    "patterns" : ["Hello","Hey","Hi","Good Day","Greetings"],
+    "responses" : ["Hello!","Hey","What Can I do for you?"]
+  },
+
+  {
+    "tag" : "Acne",
+    "patterns" : ["blackheads","pimples","face pimples","neck pimples","shoulder pimples"],
+    "responses" : ["According to your symptoms you might have Acne","You have Acne","I suppose you have Acne"]
+  },
+
+  {
+    "tag" : "Attention Deficit Disorder (ADHD)",
+    "patterns" : ["impulsivity","hyperactivity","lack of focus","messy works","restlessness"],
+    "responses" : ["According to your symptoms you might have Attention Deficit Disorder","You have Attention Deficit Disorder","I suppose you have Attention Deficit Disorder"]
+
+  },
+
+  {
+    "tag" : "Allergies",
+    "patterns" : ["sneezing","itchy eyes","coughing","watery eyes","itchy nose"],
+    "responses" : ["According to your symptoms you might have Allergies","You have Allergies","I suppose you have Allergies"]
+  },
+  {
+    "tag" : "Alzheimers",
+    "patterns" : ["forgetful","confusion with time","poor judgement"],
+    "responses" : ["According to your symptoms you might have Alzheimers","You have Alzheimers","I suppose you have Alzheimers"]
+  },
+  {
+  	"tag" : "Ankylosing Spondylitis",
+  	"patterns" : ["loss of appetite","weight loss","difficulty walking","pain in heels","pain in hips","pain in jaw","decreased energy","heart failure","heart block","pain in lower back","stiffness"],
+  	"responses" : ["According to your symptoms you might have Ankylosing Spondylitis","You have Ankylosing Spondylitis","I suppose you have Ankylosing Spondylitis"]
+
+  },
+  {
+  	"tag" : "Anorexia",
+  	"patterns" : ["terrifies of gaining weight","hard to sleep through night","dizziness","hair is falling out","constipation","swollen arms","swollen legs","fainting","underweight"],
+  	"responses" : ["According to your symptoms you might have Anorexia","You have Anorexia","I suppose you have Anorexia"]
+  },
+  {
+  	"tag" : "Anxiety or Panic Disorder",
+  	"patterns" : ["rapid heartbeat","fast heartbeat","sweating","shaking","shortness of breath","fear of death","chest pain","faintness"],
+  	"responses" : ["According to your symptoms you might have Anxiety or Panic Disorder","You have Anxiety or Panic Disorder","I suppose you have Panic Disorder"]
+  },
+  {
+  	"tag" : "Arthritis",
+  	"patterns" : ["lack of movement","sored area","joint pain"],
+  	"responses" : ["According to your symptoms you might have any type of Arthritis","You have any type of Arthritis","I suppose you have any type of Arthritis"]
+  },
+  {
+  	"tag" : "Antitrypsin Deficiency",
+  	"patterns" : ["jaundice","yellow skin","coughing up blood","yellow urine"],
+  	"responses" : ["According to your symptoms you might have Antitrypsin Deficiency","You have Antitrypsin Deficiency","I suppose you have Antitrypsin Deficiency"]
+  },
+  {
+  	"tag" : "Abdominal Migraine",
+  	"patterns" : ["dark shadows under eyes","be pale","have little energy","feeling drowsy","unable to eat"],
+  	"responses" : ["According to your symptoms you might have Abdominal Migraine","You have Abdominal Migraine","I suppose you have Abdominal Migraine"]
+  },
+  {
+  	"tag" : "Amyloidosis",
+  	"patterns" : ["sudden weight loss","feeling of fullness","shortness of breath","tongue swelling","severe fatigue","severe weakness","irregular heartbeat"],
+  	"responses" : ["According to your symptoms you might have Amyloidosis","You have Amyloidosis","I suppose you have Amyloidosis"]
+
+  },
+  {
+  	"tag" : "Abscessed Tooth",
+  	"patterns" : ["trouble swallowing","trouble breathing","bad taste","gum redness","sensitivity","bad odor in mouth"],
+  	"responses" : ["According to your symptoms you might have Abscessed Tooth","You have Abscessed Tooth","I suppose you have Abscessed Tooth"]
+  },
+  {
+  	"tag" : "Amenorrhea",
+  	"patterns" : ["hair loss","change in vision","hair growth on face","pain in pelvic area"],
+  	"responses" : ["According to your symptoms you might have Amenorrhea","You have Amenorrhea","I suppose you have Amenorrhea"]
+  },
+  {
+  	"tag" : "Absence Seizure",
+  	"patterns" : ["sudden stop in motion","lip smacking","eyelid fluttering","finger rubbing"],
+  	"responses" : ["According to your symptoms you might have Absence Seizure","You have Absence Seizure","I suppose you have Absence Seizure"]
+  },
+  {
+  	"tag" : "Sleep Apnea",
+  	"patterns" : ["loud snoring","loud gasping","loud choking","excessive sweating at night"],
+  	"responses" : ["According to your symptoms you might have Sleep Apnea","You have Sleep Apnea","I suppose you have Sleep Apnea"]
+  },
+  {
+  	"tag" : "Achalasia",
+  	"patterns" : ["food coming back up into the throat","nighttime coughing","heart is burning","hurt is belching"],
+  	"responses" : ["According to your symptoms you might have Achalasia","You have Achalasia","I suppose you have Achalasia"]
+  },
+  {
+  	"tag" : "Appendicitis",
+  	"patterns" : ["pain in lower belly","pain near navel","belly pain and vomiting","swollen belly","severe cramps","difficulty in peeing","constipation with gas"],
+  	"responses" : ["According to your symptoms you might have Appendicitis","You have Appendicitis","I suppose you have Appendicitis"]
+  },
+  {
+  	"tag" : "Aparaxia of Speech",
+  	"patterns" : ["unable to form proper words","unable to say complex words","speech inconsistencies","distortion in vowel sounds"],
+  	"responses" : ["According to your symptoms you might have Aparaxia of Speech","You have Aparaxia of Speech","I suppose you have Aparaxia of Speech"]
+  },
+  {
+    "tag" : "Arachnoiditis",
+    "patterns" : ["weakness in the legs","numbness in legs","ringing in ears","bladder problems"],
+    "responses" : ["According to your symptoms you are suffering from Arachnoiditis","You have Arachnoiditis","I suppose you have Arachnoiditis"]
+  },
+  {
+    "tag" : "Acute Respiratory Distress Syndrome (ARDS)",
+    "patterns" : ["shortness of breath","low blood pressure","fast breathing","fast heartbeat","exhaustion","blue tinted lips","blue tinted nails"],
+    "responses" : ["According to your symptoms you are suffering from Acute Respiratory Distress Syndrome (ARDS)","You have Acute Respiratory Distress Syndrome (ARDS)","I suppose you have Acute Respiratory Distress Syndrome (ARDS)"]
+  },
+  {
+    "tag" : "Impetigo",
+    "patterns" : ["red sores around nose","fever"," swollen glands","blisters"],
+    "responses" : ["According to your symptoms you might have Impetigo","You have Impetigo","I suppose you have Impetigo"]
+  },
+  {
+    "tag" : "Indigestion",
+    "patterns" : ["bloatedness","belching","regurgitation","nausea","feeling full"],
+    "responses" : ["According to your symptoms you might have Indigestion","You have Indigestion","I suppose you have Indigestion"]
+  },
+  {
+    "tag" : "Ingrown toenail",
+    "patterns" : ["inflammation in toe","yellow pus from toe","oedema","curling of nail"],
+    "responses" : ["According to your symptoms you might have Ingrown toenail","You have Ingrown toenail","I suppose you have Ingrown toenail"]
+  },
+  {
+    "tag" : "Inherited heart conditions",
+    "patterns" : ["palpitations","fainting","blackouts"],
+    "responses" : ["According to your symptoms you might have Inherited heart conditions","You have Inherited heart conditions","I suppose you have Inherited heart conditions"]
+  },
+  {
+    "tag" : "Insomnia",
+    "patterns" : ["difficulty in sleeping","awake for long periods","not feeling refreshed after waking","difficulty napping","difficulty concentrating","irritable"],
+    "responses" : ["According to your symptoms you might have Insomnia","You have Insomnia","I suppose you have Insomnia"]
+  },
+  {
+    "tag" : "Iron deficiency anaemia",
+    "patterns" : ["tiredness","lethargy","lack of energy","shortness of breath","pale complexion","heart palpitations","headache","feeling itchy","difficulty swallowing","abnormally smooth tongue","hair loss"],
+    "responses" : ["According to your symptoms you might have Iron deficiency anaemia","You have Iron deficiency anaemia","I suppose you have Iron deficiency anaemia"]
+  },
+  {
+    "tag" : "Irritable bowel syndrome (IBS)",
+    "patterns" : ["abdominal pain","diarrhoea","constipation","bloating","excessive flatulence","lethargy","heartburn","cramping"],
+    "responses" : ["According to your symptoms you might have Irritable bowel syndrome (IBS)","You have Irritable bowel syndrome (IBS)","I suppose you have Irritable bowel syndrome (IBS)"]
+  },
+  {
+    "tag" : "Irritable hip",
+    "patterns" : ["slightly higher temperature","pain in the knee","thigh pain","estricted movement in hip joints","limping","hip pain"],
+    "responses" : ["According to your symptoms you might have Irritable hip","You have Irritable hip","I suppose you have Irritable hip"]
+  },
+  {
+    "tag" : "Itching",
+    "patterns" : ["Redness","leathery or scaly patches","scratch marks","blisters","cracked skin","itchy skin","itchness all over body","dry skin","persistent itch"],
+    "responses" : ["According to your symptoms you might have Itching","You have Itching","I suppose you have Itching"]
+  },
+  {
+    "tag" : "Itchy bottom",
+    "patterns" : ["persistent anal itch","anal bleeding","stool leakage","severe rectal itch","itchness in  bottom"],
+    "responses" : ["According to your symptoms you might have Itchy bottom","You have Itchy bottom","I suppose you have Itchy bottom"]
+  },
+  {
+    "tag" : "Kaposi's sarcoma",
+    "patterns" : ["uncomfortable swelling","nausea","vomiting","","coughing up blood","chest pain","stomach pain"],
+    "responses" : ["According to your symptoms you might have Kaposi's sarcoma","You have Kaposi's sarcoma","I suppose you have Kaposi's sarcoma"]
+  },
+  {
+    "tag" : "Kidney infection",
+    "patterns" : ["pus in kidney","shivering","pain in the back","painful urination","fever"],
+    "responses" : ["According to your symptoms you might have Kidney infection","You have Kidney infection","I suppose you have Kidney infection"]
+  },
+  {
+    "tag" : "Kidney stones",
+    "patterns" : ["persistent ache in lower back","periods of intense pain","nausea","pain while urination","blood in urine","gfrequent urge to urinate","restlessness"],
+    "responses" : ["According to your symptoms you might have Kidney stones","You have Kidney stones","I suppose you have Kidney stones"]
+  },
+
+  {
+  	"tag" : "Unknown",
+  	"patterns" : [],
+  	"responses" : ["Sorry I didn't understand what you said","Sorry I didn't catch that","Sorry I can't recognize you , Please try again"]
+  },
+  {
+    "tag" : "Goodbye",
+    "patterns" : ["Thank You, Goodbye","See you","Bye","goodbye"],
+    "responses"  : ["Have a Nice day","Thank You to you too","Talk to you later!","GoodBye!"]
+  }
+]
+}

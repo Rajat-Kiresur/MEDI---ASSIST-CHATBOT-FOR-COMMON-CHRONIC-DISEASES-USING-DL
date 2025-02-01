@@ -1,0 +1,6 @@
+Python 3.6+
+TensorFlow 2.x
+Flask
+NLTK
+NumPy
+scikit-learn
