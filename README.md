@@ -1,4 +1,4 @@
-# Medi-Assist Health Care Chatbot For Chronic Disease 
+# Medi-Assist A Chatbot For Common Chronic Diseases Using DL 
 Welcome to the Medi-Assist project! This repository contains the code for a chatbot that utilizes an LSTM (Long Short-Term Memory) neural network, a part of deep learning, for understanding and generating responses, integrated with a Flask web application for an interactive user interface.
 
 Medi-Assist aims to create a conversational AI chatbot that can understand user input and generate appropriate responses using deep learning. The chatbot is trained using an LSTM model on predefined intents, which are sets of patterns and responses. The Flask web application serves as the frontend interface where users can interact with the chatbot. It takes symptoms as input and gives a chronic disease as output.
@@ -34,7 +34,7 @@ Medi-Assist aims to create a conversational AI chatbot that can understand user 
 
 
 
-https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/d7aca39b-9580-448d-8c88-6c7f0fe899ab
+https://github.com/Rajat-Kiresur/Medi-Assist/assets/107788748/d7aca39b-9580-448d-8c88-6c7f0fe899ab
 
 
 #    
