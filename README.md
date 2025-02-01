@@ -34,7 +34,7 @@ Medi-Assist aims to create a conversational AI chatbot that can understand user 
 
 
 
-https://github.com/Rajat-Kiresur/Medi-Assist/107788748/d7aca39b-9580-448d-8c88-6c7f0fe899ab
+https://github.com/Rajat-Kiresur/107788748/d7aca39b-9580-448d-8c88-6c7f0fe899ab
 
 
 #    
