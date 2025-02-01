@@ -47,7 +47,7 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 # Snapshots
 
 # 1. Chatbot Training
-![training1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/a45e460e-3315-4191-b503-4060d5f1809f)
+![training1](https://github.com/Rajat-Kiresur/Medi-Assist/assets/107788748/a45e460e-3315-4191-b503-4060d5f1809f)
                     
 
 # 2. Frequently asked questions
