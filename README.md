@@ -56,8 +56,7 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
                    
 # 3. List of symptoms
-![symptoms1](https://github.com/Rajat-Kiresur/![344393293-6504dc2a-3c4e-44b9-9935-401bed31688c](https://github.com/user-attachments/assets/b998e722-3d7a-4865-93d8-c6919f809b7a)
-)
+![symptoms1](https://github.com/Rajat-Kiresur/assets/b998e722-3d7a-4865-93d8-c6919f809b7a)
 
 
 # 4. Navigating throughout
