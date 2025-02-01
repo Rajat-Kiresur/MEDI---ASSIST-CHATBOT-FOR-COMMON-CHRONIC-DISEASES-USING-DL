@@ -47,7 +47,8 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 # Snapshots
 
 # 1. Chatbot Training
-![training1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/a45e460e-3315-4191-b503-4060d5f1809f)
+![344393238-a45e460e-3315-4191-b503-4060d5f1809f](https://github.com/user-attachments/assets/33a634d3-13a2-400a-a47f-fea23f5a9757)
+
                     
 
 # 2. Frequently asked questions
@@ -59,12 +60,12 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
 
 # 4. Navigating throughout
-![symptom2](https://github.com/Rajat-Kiresur/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
-![344393330-fadc18b8-9829-476e-8875-bc476411e5d6](https://github.com/Rajat-Kiresur/assets/bfc2285c-d5fc-404b-a90a-50d9f694b74f)
+![344393330-fadc18b8-9829-476e-8875-bc476411e5d6](https://github.com/user-attachments/assets/bfc2285c-d5fc-404b-a90a-50d9f694b74f)
 
     
 # 5. Output(predection of chronic disease)
-![Snapshot](https://github.com/Rajat-Kiresur/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
+![344393354-ada44074-7f20-46a1-8597-22c2e057fdf2](https://github.com/user-attachments/assets/cfcbbce6-d734-4793-924e-d385544cb460)
+
 
 
 
@@ -87,7 +88,8 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
 This image represents the directory structure of the Medi-Assist project, detailing the organization of files and folders including data, models, templates, static assets, and main Python scripts
 
-![medi_assist_project_structure](https://github.com/Rajat-Kiresur/107788748/21f42c1c-2e49-48b7-8ed5-1675c8606db0)
+![344394796-21f42c1c-2e49-48b7-8ed5-1675c8606db0](https://github.com/user-attachments/assets/9c4efc08-7ae0-481a-a7f3-015c3e4ebdd3)
+
 
 
 # Model Training
