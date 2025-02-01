@@ -52,6 +52,8 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
 # 2. Frequently asked questions
 ![FAQ](https://github.com/Rajat-Kiresur/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
+![344393278-66a17782-b433-471a-a0d0-65a75bfa006a](https://github.com/user-attachments/assets/aefba27b-fb5e-468c-bc95-c5580612f662)
+
                    
 # 3. List of symptoms
 ![symptoms1](https://github.com/Rajat-Kiresur/107788748/6504dc2a-3c4e-44b9-9935-401bed31688c)
