@@ -51,18 +51,17 @@ https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
                     
 
 # 2. Frequently asked questions
-![FAQ](https://github.com/Rajat-Kiresur/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
 ![344393278-66a17782-b433-471a-a0d0-65a75bfa006a](https://github.com/user-attachments/assets/aefba27b-fb5e-468c-bc95-c5580612f662)
 
                    
 # 3. List of symptoms
-![symptoms1](https://github.com/Rajat-Kiresur/assets/b998e722-3d7a-4865-93d8-c6919f809b7a)
-![symptoms1](https://github.com/Rajat-Kiresur/assets/fdcea6ec-301d-4378-8752-489c52ee327f)
-
+![344393293-6504dc2a-3c4e-44b9-9935-401bed31688c](https://github.com/user-attachments/assets/93e8da69-62df-4922-9da8-5feb0685a769)
 
 
 # 4. Navigating throughout
 ![symptom2](https://github.com/Rajat-Kiresur/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
+![344393330-fadc18b8-9829-476e-8875-bc476411e5d6](https://github.com/Rajat-Kiresur/assets/bfc2285c-d5fc-404b-a90a-50d9f694b74f)
+
     
 # 5. Output(predection of chronic disease)
 ![Snapshot](https://github.com/Rajat-Kiresur/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
