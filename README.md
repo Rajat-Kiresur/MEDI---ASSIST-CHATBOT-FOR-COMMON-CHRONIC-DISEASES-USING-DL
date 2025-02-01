@@ -39,7 +39,7 @@ https://github.com/Rajat-Kiresur/107788748/d7aca39b-9580-448d-8c88-6c7f0fe899ab
 
 #    
 
-https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
+https://github.com/Rajat-Kiresur/107788748/25288ba6-f1aa-4897-80b8-dc4f0b588b5a
 
 
 
@@ -51,17 +51,17 @@ https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-489
                     
 
 # 2. Frequently asked questions
-![FAQ](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
+![FAQ](https://github.com/Rajat-Kiresur/107788748/66a17782-b433-471a-a0d0-65a75bfa006a)
                    
 # 3. List of symptoms
-![symptoms1](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/6504dc2a-3c4e-44b9-9935-401bed31688c)
+![symptoms1](https://github.com/Rajat-Kiresur/107788748/6504dc2a-3c4e-44b9-9935-401bed31688c)
 
 
 # 4. Navigating throughout
-![symptom2](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
+![symptom2](https://github.com/Rajat-Kiresur/107788748/fadc18b8-9829-476e-8875-bc476411e5d6)
     
 # 5. Output(predection of chronic disease)
-![Snapshot](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
+![Snapshot](https://github.com/Rajat-Kiresur/107788748/ada44074-7f20-46a1-8597-22c2e057fdf2)
 
 
 
@@ -84,7 +84,7 @@ https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/25288ba6-f1aa-489
 
 This image represents the directory structure of the Medi-Assist project, detailing the organization of files and folders including data, models, templates, static assets, and main Python scripts
 
-![medi_assist_project_structure](https://github.com/SantraptiNayak/Medi-Assist/assets/107788748/21f42c1c-2e49-48b7-8ed5-1675c8606db0)
+![medi_assist_project_structure](https://github.com/Rajat-Kiresur/107788748/21f42c1c-2e49-48b7-8ed5-1675c8606db0)
 
 
 # Model Training
